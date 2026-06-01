@@ -1,0 +1,17 @@
+---
+title: "Session2_Reproducibility_GitHub"
+format: html
+editor: visual
+---
+
+```{r}
+library(dplyr)
+```
+
+
+```{r}
+mtcars %>% 
+  filter(mpg >= 18) %>%
+  select (cyl, mpg)
+```
+
